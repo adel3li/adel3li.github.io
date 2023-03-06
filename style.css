@@ -48,6 +48,7 @@ section {
     min-height: 100vh;
     display: flex;
     align-items: center;
+    background-color: #0a49f6;
     background: url(88.jpg) no-repeat;
     background-size: cover;
     background-position: center;
