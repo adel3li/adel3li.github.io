@@ -19,7 +19,7 @@ header {
     align-items: center;
     padding: 10px 200px ;
 }
-
+/* 
 .logo{
     text-decoration: none;
     color: #3a6cf4;
@@ -151,6 +151,5 @@ section {
 @media (max-width:300px){
     body{
         font-size: 10px;
-     
     }
-}
+} */
