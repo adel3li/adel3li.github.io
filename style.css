@@ -54,13 +54,13 @@ section {
     background-attachment: fixed;
 }
 
-/* .main h2 {
+.main h2 {
     color: #fff;
     font-size: 1.4em;
     font-weight: 500;
 }
 
-.main h2 span {
+/* .main h2 span {
     display: inline-block;
     margin-top: 10px;
     color: #4e9eff;
@@ -100,7 +100,7 @@ section {
     color: #fff;
     font-size: 1.7em;
     padding-right: 30px;
-}*/
+} */
 
 @media (max-width:1023px){
     header{
