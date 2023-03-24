@@ -39,9 +39,9 @@ header {
 .navigation a:hover{
     color: #601cfc;
 }
-section {
+/* section {
     padding: 100px 200px;
-}
+} */
 
 .main {
     width: 100%;
@@ -53,7 +53,7 @@ section {
     background-position: center;
     background-attachment: fixed;
 }
-/* 
+
 .main h2 {
     color: #fff;
     font-size: 1.4em;
@@ -152,4 +152,4 @@ section {
     body{
         font-size: 10px;
     }
-} */
+}
