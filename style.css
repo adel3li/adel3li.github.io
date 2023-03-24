@@ -54,7 +54,7 @@ section {
     background-attachment: fixed;
 }
 
-.main h2 {
+/* .main h2 {
     color: #fff;
     font-size: 1.4em;
     font-weight: 500;
@@ -100,7 +100,7 @@ section {
     color: #fff;
     font-size: 1.7em;
     padding-right: 30px;
-}
+}*/
 
 @media (max-width:1023px){
     header{
@@ -134,7 +134,7 @@ section {
 
 }
 
-@media (max-width:641px){
+/* @media (max-width:641px){
     body{
         font-size: 12px;
     }
@@ -152,4 +152,4 @@ section {
     body{
         font-size: 10px;
     }
-}
+}  */
