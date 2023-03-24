@@ -60,7 +60,7 @@ section {
     font-weight: 500;
 }
 
-/* .main h2 span {
+.main h2 span {
     display: inline-block;
     margin-top: 10px;
     color: #4e9eff;
@@ -68,7 +68,7 @@ section {
     font-weight: 600;
 }
 
-.main h3 {
+/* .main h3 {
     color: #fff;
     font-size: 2em;
     font-weight: 700;
