@@ -68,7 +68,7 @@ section {
     font-weight: 600;
 }
 
-/* .main h3 {
+.main h3 {
     color: #fff;
     font-size: 2em;
     font-weight: 700;
@@ -77,7 +77,7 @@ section {
     margin-bottom: 30px;
 }
 
-.main-btn {
+/* .main-btn {
     color: #fff;
     background-color: #3a6cf4;
     text-decoration: none;
@@ -134,7 +134,7 @@ section {
 
 }
 
-/* @media (max-width:641px){
+@media (max-width:641px){
     body{
         font-size: 12px;
     }
@@ -148,7 +148,7 @@ section {
     }
 }
 
-@media (max-width:300px){
+/* @media (max-width:300px){
     body{
         font-size: 10px;
     }
