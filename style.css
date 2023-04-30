@@ -96,11 +96,11 @@ section {
     transform: scale(1.1);
 }
 
-/* .social-icons a {
+.social-icons a {
     color: #fff;
-    font-size: 1.7em;
-    padding-right: 30px;
-} */
+    /* font-size: 1.7em; */
+    /* padding-right: 30px; */
+}
 
 @media (max-width:1023px){
     header{
