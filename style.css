@@ -99,7 +99,7 @@ section {
 .social-icons a {
     color: #fff;
     font-size: 1.7em;
-    /* padding-right: 30px; */
+    padding-right: 30px;
 }
 
 @media (max-width:1023px){
