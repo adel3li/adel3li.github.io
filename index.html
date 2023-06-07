@@ -1,60 +1,454 @@
-<!-- <!DOCTYPE html> -->
-<!-- <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Adel ALi</title>
-</head>
-<body>
-
-    <header>
-        <a href="" class="logo">A d e l  A l i </a>
-        <nav class="navigation">
-            
-            <a href="#services">Services</a>
-            <a href="#projects">Projects</a>
-            <a href="https://www.linkedin.com/in/adelali/">Contact</a>
-            
-        </nav>
-    </header>
-
-
-    <section class="main">
-        <div>
-            <h2>Hi, I'm Adel<br><span>Data Scientist<br>& Analyst</span></h2>
-            <h3>Make Better Decisions Using Data</h3>
-            <a href="https://www.canva.com/design/DAFb4tmu1pg/xIC_ujjewKpSpr5aAmQ8lQ/view?utm_content=DAFb4tmu1pg&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" class="main-btn">View My Resume</a>
-            
-            <div class="social-icons">
-                <a href="https://www.linkedin.com/in/adelali/"><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/adel3li"><i class="fab fa-github"></i></a>
-                <a href="https://www.instagram.com/adel__alii/"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.youtube.com/channel/UCP50pjyuE4mdo8YxqAhBiAg/featured"><i class="fab fa-youtube"></i></a>
-                                
-                <h6><br>This is Version 0.0 (Beta) </h6>
-                
-            </div>
-        </div>
-    </section>
-
-</body>
-</html> -->
-
-
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>My Portfolio</title>
-        <!-- <link rel="stylesheet" href="style.css" /> -->
-        <!-- <link rel="stylesheet" href="mediaqueries.css" /> -->
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Adel Ali</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Adel Ali</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/Untitled design (4).png" alt="John Doe profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Adel Ali</h1>
+        <p class="section__text__p2">Data Scientist & Analyst</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-1"
+            onclick="window.open('https://www.canva.com/design/DAFb4tmu1pg/xIC_ujjewKpSpr5aAmQ8lQ/view?utm_content=DAFb4tmu1pg&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink')"
+          >
+            Resume
+          </button>
+          <button class="btn btn-color-2" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/adelali/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/adel3li'"
+          />
+        </div>
+      </div>
+      <p><br/><br/><br/><br/><br/><strong>"Always believing, learning, and pursuing."</strong></p>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/Untitled design (8).png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>2+ years<br />Data Science & Analytics</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Bachelor of Statistics<br />CS Dropout<br />Self-taught</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              <br/>"Always believing, learning, and pursuing. Self-taught,
+              multi-passionate, tech nerd, resilient, seeker, and a fighter.
+              With an insatiable appetite for knowledge and an unwavering commitment to personal growth,
+              I navigate life's journey with determination and curiosity.
+              Embracing challenges as opportunities and fueled by a relentless desire to achieve,
+              I thrive in the dynamic landscape through continuous self-improvement.
+              My journey is a testament to the power of believing and resilience."
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Get to </p>
+      <h1 class="title">Explore </h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Experience</h2>
+            <div class="article-container">
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                  <h4>WorldQuant University.</h4>
+                  <p style="font-size: 10px;">Applied Data Science Lab Intern</p>
+                </div>
+              </article>
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                  <h4>McKinsey & Company.</h4>
+                  <p style="font-size: 10px;">McKinsey Forward Intern</p>
+                </div>
+              </article>
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                  <h5>Raqameyyah Digital Consultancy.</h5>
+                  <p style="font-size: 10px;">Data Science Intern</p>
+                </div>
+              </article>
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                  <h5>Raqameyyah Digital Consultancy.</h5>
+                  <p style="font-size: 10px;">Data Analyst Intern</p>
+                </div>
+              </article>
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                  <h5>The Sparks Foundation.</h5>
+                  <p style="font-size: 10px;">Data Science & Business Analytics Intern</p>
+                </div>
+              </article>
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                  <h5>BadorStock, E-commerce Store.</h5>
+                  <p style="font-size: 10px;">Co-Founder</p>
+                </div>
+              </article>
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                  <h5 style="font-size: 14px;">Freelancer Filmmaker.</h5>
+                  <p style="font-size: 10px;">Video Editor</p>
+                </div>
+              </article>
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                  <h5>YouTube Content Creator.</h5>
+                  <p style="font-size: 10px;">Content Creator</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Services</h2>
+            <div class="article-container">
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                  <h4 style="font-size: 17.5px">Data Managment</h4>
+                  <p>SQL</p>
+                </div>
+              </article>
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                  <h3 style="font-size: 16px">Data Collection & Transformation</h3>
+                  <p>SQL, Python</p>
+                </div>
+              </article>
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                  <h4 style="font-size: 16px">Data Cleaning & preprocessing</h4>
+                  <p>SQL, Python</p>
+                </div>
+              </article>
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                  <h4 style="font-size: 16px">Exploratory Data Analysis</h4>
+                  <p>SQL, Python, Excel</p>
+                </div>
+              </article>
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                  <h4 style="font-size: 17px">Data Visualization</h4>
+                  <p>Python, Tabluea, PowerBI</p>
+                </div>
+              </article>
+            </article>
+            <article>
+              <!-- <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              /> -->
+              <div>
+                <h4 style="font-size: 14.5px">Business Intelligence</h4>
+                <p>Tabluea, PowerBI, A/B Testing</p>
+              </div>
+            </article>
+          </article>
+          <article>
+            <!-- <img
+              src="./assets/checkmark.png"
+              alt="Experience icon"
+              class="icon"
+            /> -->
+            <div>
+              <h4 style="font-size: 15.5px">Predictive Modeling</h4>
+              <p>Python</p>
+            </div>
+          </article>
+        </article>
+        <article>
+          <!-- <img
+            src="./assets/checkmark.png"
+            alt="Experience icon"
+            class="icon"
+          /> -->
+          <div>
+            <h4 style="font-size: 14px">Descriptive Analytics</h4>
+            <p>Data Storytelling</p>
+          </div>
+        </article>
+      </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/16-career_track_analysis_with_sql_and_tableau.webp"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:adelalsabakhawy@gmail.com">adelalsabakhawy@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/adelali/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- <p>Copyright &#169; 2023 John Doe. All Rights Reserved.</p> -->
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
